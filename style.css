@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+/* header code */
+header{
+    background-color: rgb(123, 237, 237);
+}
+nav{
+    display: flex;
+}
+#logo{
+    padding: 15px;
+    margin-left: 39px;
+}
+.logo-img{
+    width:20%;
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 60px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 32px 25px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: rgb(132 138 146);
+}
+
+/* banner */
+#banner{
+    background: url("../images/banner.jpg");
+}
+.banner-content{
+    display: flex;
+}
+.banner-left-data{
+    width: 50%;
+}
+.banner-left-data h1{
+    color: rgb(132 138 146);
+    font-size: 90px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.banner-left-data h3{
+    color: rgb(132 138 146);
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 150px;
+}
+
+
+.banner-left-data h2{
+    
+    color: rgb(132 138 146);
+    /* background-color: cyan; */
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+.banner-left-data p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+.banner-link{
+    margin-top: 50px;
+    margin-bottom: 245px;
+}
+.banner-link a{
+    background:gray;
+    border-radius: 10px;
+    color: #000;
+    padding: 15px 15px;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.banner-right-img{
+    width: 50%;
+    padding-left: 20px;
+}
+.banner-right-img img{
+    width: 100%;
+    margin-top: 165px;
+}
+/* services */
+#services{
+    background-color: rgb(123, 237, 237);
+    position: relative;
+}
+.services-main-box{
+    display: flex;
+    position: relative;
+    top: -100px;
+    justify-content: space-between;
+}
+.services-box{
+    text-align: center;
+    background-color: #fff;
+    width: 30%;
+    border: 1px solid #f2f2f2;
+
+}
+.services-box h3{
+    padding-top: 60px;
+}
+.services-box img{
+    padding: 15px 0;
+    width: 30%;
+}
+.services-box p{
+    padding: 15px 15px;
+}
+/* about-services */
+#about-services{
+    margin-top: 30px;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    padding: 50px 0 ;
+    text-decoration: underline 1px blue;
+    text-underline-offset: 20px;
+}
+.bike-bg-img{
+    width: 80%;
+    height: 700px;
+    background: url("images/bg-garage.webp");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #f2f2f2;
+}
+.bike-bg-img h3{
+    font-size: 27px;
+    padding-top: 138px;
+    padding-bottom: 24px;
+}
+.bike-bg-img p{
+    padding: 6px 145px;
+    line-height: 35px;
+    margin-bottom: 15px;
+
+}
+#readmore{
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+}
+/* gallery-section */
+#gallery-section p{
+    text-align: center;
+    font-weight: bold;
+}
+.gallery-main-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery-box{
+    width: 40%;
+    margin-top: 20px;
+}
+
+.gallery-box img{
+    width: 110%;
+    border-radius: 30px;
+}
+
+#footer img {
+    width: 2%;
+    padding: 5px;
+   
+}
+
+.copyright-section{
+    background-color:rgb(123, 237, 237) ;
+    padding: 2%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.footer-icons {
+    color: black;
+    padding: 0.5%
+}
+
+.footer-icons:hover {
+    cursor: pointer;
+}
+
+.footer-para {
+    color: rgb(132 138 146);
+}
